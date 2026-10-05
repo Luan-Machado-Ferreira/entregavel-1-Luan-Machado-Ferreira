@@ -26,13 +26,4 @@ Bem vindo ao programa que verifica se um robô tem bateria suficiente para reali
 Digite em porcentagem a bateria atual: -9%      <---- Digitado pelo usuário.
 Digite a duração prevista da missão, em minutos: 2      <---- Digitado pelo usuário.
 Digite o consumo por minuto, em pontos percentuais da bateria: 1      <---- Digitado pelo usuário.
-Traceback (most recent call last):
-  File ".../src/missao.py", line 19, in <module>
-    resultado = verificar_bateria_robo(
-        input("Digite em porcentagem a bateria atual: "),
-        float(input("Digite a duração prevista da missão, em minutos: ")),
-        float(input("Digite o consumo por minuto, em pontos percentuais da bateria: "))
-    )
-  File ".../src/missao.py", line 6, in verificar_bateria_robo
-    raise Exception("Programa encerrado, motivo: Valor inválido para bateria.")
-Exception: Programa encerrado, motivo: Valor inválido para bateria.      <---- Mensagem de erro.
+Programa encerrado, motivo: Valor inválido para bateria.      <---- Mensagem de erro.
